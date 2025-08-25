@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+myenv312/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/
+
+
+
+# Model files (large weights)
+*.h5
+*.hdf5
+*.ckpt
+img_x_capindex.pkl
+xception_features.pkl
+
+
+*.txt
+
+*.keras
+
+# OS files
+.DS_Store
+Thumbs.db
+
+Flicker8k_Dataset/
