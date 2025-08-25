@@ -58,7 +58,7 @@ st.write("Upload an image and click **Generate Caption** to see results!")
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
 if uploaded_file is not None:
-    st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
+    st.image(uploaded_file, caption="Uploaded Image", use_container_width=True)
 
     if st.button("Generate Caption"):
         st.write(" Loading model... please wait ")
